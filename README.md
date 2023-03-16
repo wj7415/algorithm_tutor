@@ -28,20 +28,17 @@ https://docs.google.com/document/d/1DNFapNsQCPnBq3JAsf0L8exDErk74UE3jMc3opr7wII/
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/39439424/225250450-877c3ca9-5102-4824-974e-872cf69c12fb.png">
 
 2. 파일명을 `{이름}_{백준문제번호}.py' 으로 작성, 본인 코드 복사 붙여 넣기
-<img width="636" alt="image" src="https://user-images.githubusercontent.com/39439424/225250861-410c5aca-6f09-4300-a97d-351b882c9125.png">
+![2 파일저장](https://user-images.githubusercontent.com/39439424/225705907-9663d485-0ec0-4390-b7ba-4ddbfb55b1a6.JPG)
 
 3. 하단 commit changes 클릭(내 코드를 저장)
 
-
 4. create pull request 클릭  내코드를 이 코드 저장소에 전송을 요청)
 
-
-![creat pull request](https://user-images.githubusercontent.com/39439424/225564440-77c7f075-c88b-4183-83ab-c3d1a54d1dc6.png)
+![pull request 대기 화면](https://user-images.githubusercontent.com/39439424/225564515-70afc464-ef5d-4cd7-8fb2-7e1fbfca7fcc.png)
 
 5. 코드 업로드 완료
 하기 상태에서 자기 조원의 코드를 볼 수 있습니다.
 
-![pull request 대기 화면](https://user-images.githubusercontent.com/39439424/225564515-70afc464-ef5d-4cd7-8fb2-7e1fbfca7fcc.png)
-
+![3  파일 클릭해서 리뷰하기](https://user-images.githubusercontent.com/39439424/225705954-154af5f7-ea43-48e6-af89-7b6b3d5a093a.JPG)
 
 
