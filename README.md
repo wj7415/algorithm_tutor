@@ -28,9 +28,9 @@ https://docs.google.com/document/d/1DNFapNsQCPnBq3JAsf0L8exDErk74UE3jMc3opr7wII/
 3. 본인 코드 복사 붙여 넣기
 
 <img width="636" alt="image" src="https://user-images.githubusercontent.com/39439424/225250861-410c5aca-6f09-4300-a97d-351b882c9125.png">
-4. 하단 commit changes 클릭(내코드를 저장하겠다.)
+4. 하단 commit changes 클릭(내 코드를 저장)
 
-5. create pull request 클릭  내코드를 코드 저장소에 보내겠다)
+6. create pull request 클릭  내코드를 이 코드 저장소에 전송을 요청)
 ![creat pull request](https://user-images.githubusercontent.com/39439424/225564440-77c7f075-c88b-4183-83ab-c3d1a54d1dc6.png)
 
 6. 코드 업로드 완료
