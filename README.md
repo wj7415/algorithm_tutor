@@ -1,5 +1,5 @@
-# algorithm_tutor
-algorithm 튜텨링을 위한 코드 집합입니다.
+# algorithm_study
+algorithm 스터디를 위한 코드 집합입니다.
 
 ## 1. 기본정보
 
