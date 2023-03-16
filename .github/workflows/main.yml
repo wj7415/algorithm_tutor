@@ -13,9 +13,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Auto merge pull request
-        uses: lots0logs/gh-action-auto-merge@1.0.0
-        with:
-          entryPoint: merge
-          args: ${{ github.event.pull_request.head.sha }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: docker run --name merge-action --rm -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} lots0logs/gh-action-auto-merge merge ${{ github.event.pull_request.head.sha }}
