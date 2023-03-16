@@ -1,9 +1,0 @@
-name: Automatic Merge
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-jobs:
-  steps:
-    uses: lots0logs/gh-action-auto-merge@entrypoint.sh
