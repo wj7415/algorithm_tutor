@@ -55,6 +55,16 @@ algorithm 튜텨링을 위한 코드 집합입니다.
 4. 본인 코드 복사 붙여 넣기
 
 <img width="636" alt="image" src="https://user-images.githubusercontent.com/39439424/225250861-410c5aca-6f09-4300-a97d-351b882c9125.png">
-5. 하단 commit changes 클릭
+5. 하단 commit changes 클릭(내코드를 저장하겠다.)
 
-업로드 완료
+6. create pull requ
+![creat pull request](https://user-images.githubusercontent.com/39439424/225564440-77c7f075-c88b-4183-83ab-c3d1a54d1dc6.png)
+
+7. 코드 업로드 완료
+
+하기 상태에서 자기 조원의 코드를 볼 수 있습니다.
+
+![pull request 대기 화면](https://user-images.githubusercontent.com/39439424/225564515-70afc464-ef5d-4cd7-8fb2-7e1fbfca7fcc.png)
+est 클릭  내코드를 코드 저장소에 보내겠다)
+
+
