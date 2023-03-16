@@ -32,11 +32,7 @@ https://docs.google.com/document/d/1DNFapNsQCPnBq3JAsf0L8exDErk74UE3jMc3opr7wII/
 
 3. 하단 commit changes 클릭(내 코드를 저장)
 
-4. create pull request 클릭  내코드를 이 코드 저장소에 전송을 요청)
-
-![pull request 대기 화면](https://user-images.githubusercontent.com/39439424/225564515-70afc464-ef5d-4cd7-8fb2-7e1fbfca7fcc.png)
-
-5. 코드 업로드 완료
+4. 코드 업로드 완료
 하기 상태에서 자기 조원의 코드를 볼 수 있습니다.
 
 ![3  파일 클릭해서 리뷰하기](https://user-images.githubusercontent.com/39439424/225705954-154af5f7-ea43-48e6-af89-7b6b3d5a093a.JPG)
