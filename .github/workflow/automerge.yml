@@ -1,2 +1,2 @@
-- name: auto-multiple-pull-request-merge
-  uses: cyberdantes/auto-pull-request-merge@v1.0.7
+- name: Automatic Merge
+  uses: lots0logs/gh-action-auto-merge@1.0.0
