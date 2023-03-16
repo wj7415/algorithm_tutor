@@ -15,7 +15,7 @@ https://docs.google.com/document/d/1DNFapNsQCPnBq3JAsf0L8exDErk74UE3jMc3opr7wII/
 - 3월 22일(수): [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) lv2, 2020 카카오 신입공채
 - 3월 23일(목): [실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889) lv1, 2019 카카오 신입공채 1차
 
-3월 5
+3월 5주차
 - 3월 27일(월): 공개예정
 - 3월 28일(화): 공개예정
 - 3월 29일(수): 공개예정
