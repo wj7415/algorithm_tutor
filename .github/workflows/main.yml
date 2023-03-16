@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 jobs:
   auto_merge:
     runs-on: ubuntu-latest
@@ -14,9 +15,8 @@ jobs:
       - name: Auto merge pull request
         uses: lots0logs/gh-action-auto-merge@1.0.0
         with:
-          entryPoint: "/entrypoint.sh"
-          args: "merge"
+          entryPoint: merge
           run-as-root: true
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            MERGE_METHOD: "merge"
+          args: ${{ github.event.pull_request.head.sha }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
