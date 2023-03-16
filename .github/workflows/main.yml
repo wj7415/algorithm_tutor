@@ -16,7 +16,6 @@ jobs:
         uses: lots0logs/gh-action-auto-merge@1.0.0
         with:
           entryPoint: merge
-          run-as-root: true
           args: ${{ github.event.pull_request.head.sha }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
