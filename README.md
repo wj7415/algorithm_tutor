@@ -45,7 +45,7 @@ algorithm 튜텨링을 위한 코드 집합입니다.
 
 ## 코드 올리는 방법
 
-
+0. github 회원가입 후 https://github.com/bellepoque7/algorithm_tutor 
 1. 해당날짜 폴더에 들어간다.
 2. 우측 상단의 add file 클릭 - create new file
 
