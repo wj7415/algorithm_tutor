@@ -4,4 +4,6 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-uses: lots0logs/gh-action-auto-merge@1.0.0
+jobs:
+  steps:
+    uses: lots0logs/gh-action-auto-merge@entrypoint.sh
