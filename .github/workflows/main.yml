@@ -5,4 +5,14 @@ on:
   push:
     branches:
       - main
-uses: lots0logs/gh-action-auto-merge
+jobs:
+  auto_merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Auto merge pull request
+        uses: lots0logs/gh-action-auto-merge@1.0.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          merge-method: merge
