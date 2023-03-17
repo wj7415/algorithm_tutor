@@ -5,15 +5,15 @@ algorithm 스터디를 위한 코드 집합입니다.
 
 ### 정보
 
-https://docs.google.com/document/d/1DNFapNsQCPnBq3JAsf0L8exDErk74UE3jMc3opr7wII/edit
+[스터디 계획안](https://docs.google.com/document/d/1DNFapNsQCPnBq3JAsf0L8exDErk74UE3jMc3opr7wII/edit)
 
 ## 2. 문제
 
 3월 4주차
-- 3월 20일(월): 
-- 3월 21일(화):
-- 3월 22일(수): 
-- 3월 23일(목): 
+- 3월 20일(월): !**어려움**! [기둥과 보](https://school.programmers.co.kr/learn/courses/30/lessons/60061) Lv 3, 2020 카카오 신입공채  
+- 3월 21일(화):  [문자열압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) Lv 2, 2020 카카오 신입공채
+- 3월 22일(수): !**어려움**! [무지의 먹방라이브](https://school.programmers.co.kr/learn/courses/30/lessons/42891) Lv4, 2019 카카오 신입 공채 
+- 3월 23일(목): [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) Lv 2, 2020 카카오 신입공채
 
 3월 5주차
 - 3월 27일(월): 공개예정
