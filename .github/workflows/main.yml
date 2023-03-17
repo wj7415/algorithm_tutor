@@ -1,16 +1,16 @@
-name: Automatic Merge
-on:
-  pull_request:
-    types: [opened, synchronize]
-  push:
-    branches:
-      - main
-  workflow_dispatch:
-jobs:
-  auto_merge:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Auto merge pull request
-        run: docker run --name merge-action --rm -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} lots0logs/gh-action-auto-merge merge ${{ github.event.pull_request.head.sha }}
+# name: Automatic Merge
+# on:
+#   pull_request:
+#     types: [opened, synchronize]
+#   push:
+#     branches:
+#       - main
+#   workflow_dispatch:
+# jobs:
+#   auto_merge:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#       - name: Auto merge pull request
+#         run: docker run --name merge-action --rm -e GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} lots0logs/gh-action-auto-merge merge ${{ github.event.pull_request.head.sha }}
