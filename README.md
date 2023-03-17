@@ -14,7 +14,7 @@ algorithm 스터디를 위한 코드 집합입니다.
 3월 4주차
 - 3월 20일(월): !**어려움**! [기둥과 보](https://school.programmers.co.kr/learn/courses/30/lessons/60061) Lv 3, 2020 카카오 신입공채  
 - 3월 21일(화): [문자열압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) Lv 2, 2020 카카오 신입공채
-- 3월 22일(수): [실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889)) Lv1, 2019 카카오 신입 공채 1차
+- 3월 22일(수): [실패율](https://school.programmers.co.kr/learn/courses/30/lessons/42889) Lv1, 2019 카카오 신입 공채 1차
 - 3월 23일(목): [자물쇠와 열쇠](https://school.programmers.co.kr/learn/courses/30/lessons/60059) Lv 2, 2020 카카오 신입공채
 
 
