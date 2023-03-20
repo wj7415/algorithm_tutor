@@ -1,4 +1,3 @@
-
 answer = []
 def solution(n, build_frame): # build_frame 좌표 입력 받고 결과 출력하기 위해서 리스트 생성
     
@@ -8,11 +7,11 @@ def solution(n, build_frame): # build_frame 좌표 입력 받고 결과 출력�
             if a == 0 : #기둥 설치
                 if y == 0 : # 0층에서는 전부 설치가능
                     answer.append(좌표[:3])
-                elif [x,y,1] in answer: # 1. 보의 끝부분 짓기, 현재위치가 1보 경우
+                elif [x,y] : # 1. 보의 끝부분 짓기, 현재위치가 1보 경우
                     answer.append(좌표[:3])
-                elif [x,y-1,1] in answer: # 1. 보의 끝부분 짓기
+                elif [x,y-1,1]: # 1. 보의 끝부분에 짓기
                     answer.append(좌표[:3])
-                elif [x-1,y,0] in answer: #2. 기둥위에 짓기
+                elif [x-1,y,0]: # 2. 기둥위에 짓기
                     answer.append(좌표[:3])
                 
             else : #보 설치 
@@ -23,7 +22,7 @@ def solution(n, build_frame): # build_frame 좌표 입력 받고 결과 출력�
                 elif ([x-1,y,1] in answer) and ([x+1,y,1] in answer): # 양쪽 끝부분 보로 연결된 경우 설치 가능 
                     answer.append(좌표[:3])
         else : # b==0 일떄, 삭제 경우  ------------append 반대 ?, 답 갯수 줄어드니까 remove
-            pass 
+            pass
             # #else 부분에서 걸러내지 못하는 중임 -> 위에서 이상한것들 걸러짐
             # if a == 0 : #기둥
             #     if y != 0 : 
