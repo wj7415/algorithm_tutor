@@ -22,7 +22,7 @@ def possible(answer):
         # 설치된 것이 '보'인 경우
         # 왜 else를 안쓸까? -> 명시적으로 분기를 쳐주는게 예외상황을 만들지 않음.
         elif stuff == 1: 
-            #(1) 보 밑에 기둥이 있을때, (2) 보 오른쪽,아래에 기둥이 있을때 (3) 보 왼쪽에 기둥이 있을때 (4) 보 오른쪽에 기둥있을때
+            #(1) 보 밑에 기둥이 있을때, (2) 보 오른쪽,아래에 기둥이 있을때 (3) 보 왼쪽, 오른쪽에 보가 있을때
             if [x,y-1,0] in answer or [x+1, y-1,0] in answer or ([x-1,y,1]) in answer and [x+1,y,1] in answer:
                 continue
             return False
