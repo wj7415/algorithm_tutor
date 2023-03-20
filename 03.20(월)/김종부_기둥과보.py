@@ -22,31 +22,28 @@ def solution(n, build_frame): # build_frame 좌표 입력 받고 결과 출력�
                 elif ([x-1,y,1] in answer) and ([x+1,y,1] in answer): # 양쪽 끝부분 보로 연결된 경우 설치 가능 
                     answer.append(좌표[:3])
         else : # b==0 일떄, 삭제 경우  ------------append 반대 ?, 답 갯수 줄어드니까 remove
-            pass
+            # pass
             # #else 부분에서 걸러내지 못하는 중임 -> 위에서 이상한것들 걸러짐
-            # if a == 0 : #기둥
-            #     if y != 0 : 
-            #         answer.remove(좌표[:3])
-            #     elif not [x,y,1] in answer: #
-            #         answer.remove(좌표[:3])
-            #     elif not [x-1,y,0] in answer:
-            #         answer.remove(좌표[:3])
-            #     elif not[x,y-1,1] in answer:
-            #         answer.remove(좌표[:3])
-                
-            # else : #보
-            #     if not [x,y-1,0] in answer:  
-            #         answer.remove(좌표[:3])
-            #     elif not [x+1,y-1,0] in answer: #
-            #         answer.remove(좌표[:3])
-            #     elif not (([x-1,y,1] in answer) and ([x+1,y,1] in answer)): 
-            #         answer.remove(좌표[:3])
-                
-            
+              #기둥
+            if a == 0 : #기둥 삭제 경우  -> 
+                if [x,y-1,0] in answer: #바로 아래 기둥 있을때
+                    answer.remove(좌표[:3])
+                elif [x-1,y,1] in answer: #바로 옆에 보가 있을때
+                    answer.remove(좌표[:3])
+                elif [x,y,1] in answer: #기둥있을떄
+                    answer.remove(좌표[:3])
+            else : # 보 삭제 경우
+                if [x,y-1,1] in answer: #바로 전에 기둥 있을때
+                    answer.remove(좌표[:3])
+                elif [x+1,y-1,1] in answer: #다음에 받치고 있는 기둥 있을때
+                    answer.remove(좌표[:3])
+                elif ([x-1,y,0] and [x+1,y,0]) in answer: #양쪽 보사이 보 있을때 
+                    answer.remove(좌표[:3])
+
     answer.sort()
     return answer
 
 n = 5
-build_frame = [[1,0,0,1],[1,1,1,1],[2,1,0,1],[2,2,1,1],[5,0,0,1],[5,1,0,1],[4,2,1,1],[3,2,1,1]]
+build_frame = [[0,0,0,1],[2,0,0,1],[4,0,0,1],[0,1,1,1],[1,1,1,1],[2,1,1,1],[3,1,1,1],[2,0,0,0],[1,1,1,0],[2,2,0,1]]
 solution(5, build_frame)
 print(answer)
